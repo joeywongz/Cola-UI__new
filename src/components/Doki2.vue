@@ -1,5 +1,5 @@
 <template>
   <div>
-    Doki1
+    Doki2
   </div>
-</template>
+</templDoki2ate>

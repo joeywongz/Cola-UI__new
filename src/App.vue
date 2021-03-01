@@ -1,17 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
-  <Doki />
+  <div>hi!</div>
+  <router-link to='/'>Doki1</router-link>
+  <router-link to='/xxx'>Doki2</router-link>
+  <router-view />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import Doki from './components/Doki.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     Doki
   }
 }
