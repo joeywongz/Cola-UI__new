@@ -16,9 +16,11 @@ export default {
 
 <style lang="scss" scoped>
   .topnav {
-    border: 1px solid red;
+    background: pink;
     display: flex;
     padding: 16px;
+    position: relative;
+    z-index: 10;
     > .logo {
       max-width: 6em;
       margin-right: auto;
@@ -28,7 +30,7 @@ export default {
       white-space: nowrap;
       flex-wrap: nowrap;
       > li {
-        margin: 0.1em
+        margin: 0 1em
       }
     }
   }
